@@ -1,4 +1,12 @@
 options:
-  type: INNODB
-  collate: utf8_general_ci
-  charset: utf8
+    type: INNODB
+    collate: utf8_general_ci
+    charset: utf8
+User:
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    name: string(255)
+    email: string(300)
