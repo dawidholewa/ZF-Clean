@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title><?= $this->PAGE_TITLE; ?> - <?= $this->PAGE_SUBTITLE; ?></title>
+        <link rel="stylesheet" type="text/css" href="templates/default/css/main.css" />
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header>
+            <!-- NAGŁOWEK -->
+            <div id="logo"><a href="#"><h1><?= $this->PAGE_TITLE; ?></h1></a></div>
+            <nav>
+                <!-- NAWIGACJA POZIOMA -->
+                <ul>
+                    <li><a href="">Strona główna</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content">
+            <section class="main-content">
+                <!-- GŁOWNY CZESC STRONY -->
+                <h4>Controller: <?= $this->controller; ?>, Action: <?= $this->action; ?></h4><br />
+                <?= $this->layout()->content; ?>
+            </section>
+            <aside>
+                <!-- PANEL BOCZNY STRONY -->
+            </aside>
+        </div>
+        <footer>
+            <!-- STOPKA STRONY -->
+            Copyright 2010-2011 by <a href="http://dawid.holewa.pl">Dawid Holewa</a>. All rights reserved.
+        </footer>
+    </body>
+</html>

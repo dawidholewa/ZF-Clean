@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f1f1f1;
+	padding: 0;
+	margin: 0;
+	color: #222;
+	font-size: 62.5%;
+
+}
+header {
+	width: 700px;
+	margin: 0px auto;
+	display: block;
+}
+
+/* NAWIGACJA */
+nav {
+	width: 700px;
+	margin: 0px auto;
+	overflow: hidden;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0px;
+	color: #FFF;
+	background-color: #202020;
+	display: block;
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	list-style: none;
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+nav a {
+	text-decoration: none;
+	color: #FFF !important;
+	display: block;
+	padding: 10px;
+}
+nav a:hover {
+	background: #606060;
+}
+
+/* STOPKA */
+footer {
+	display: block;
+	width: 680px;
+	margin: 0px auto;
+	padding: 15px;
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align: center;
+}
+
+div#content {
+	width: 680px;
+	margin: 0px auto;
+	padding: 10px;
+    background-color: #FFFFFF;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+
+	font-size: 1.4em;
+}
+
+section {
+    width: 660px;
+}
+
+aside {
+    display: none;
+}
+
+/* NAGLOWKI */
+h1 { font-size: 1.4em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.0em; }
+h4 { font-size: 0.8em; }
+h5 { font-size: 0.7em; }
+h6 { font-size: 0.6em; }
+h3 a { text-decoration: underline; }
+h1, h2, h3, h4, h5, h6 { line-height: 0.5em; }
+
+/* LINKI */
+a { color: #2a708e;	text-decoration: none; }
+a img { border: 0; }
+a:visited { color: #104258; }
+a:active { background: #eaf7fc; }
+a:hover { color: #0c1e2f; }
+
